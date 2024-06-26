@@ -31,9 +31,10 @@
 #
 ############################################################################
 px4_add_module(
-	MODULE examples__px4_yube_app
-	MAIN px4_yube_app
-	SRCS
-		px4_yube_app.c
-	DEPENDS
-	)
+    MODULE examples__fly_100m
+    MAIN fly_100m
+    SRCS
+        fly_100m.cpp
+    DEPENDS
+        platforms__common
+)
