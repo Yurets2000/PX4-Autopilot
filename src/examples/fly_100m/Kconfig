@@ -1,5 +1,0 @@
-menuconfig EXAMPLES_FLY_100M
-	bool "examples_fly_100m"
-	default n
-	---help---
-		Enable support for fly_100m
